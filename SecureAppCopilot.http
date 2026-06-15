@@ -1,0 +1,6 @@
+@SecureAppCopilot_HostAddress = http://localhost:5072
+
+GET {{SecureAppCopilot_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
