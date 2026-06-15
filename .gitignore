@@ -1,0 +1,42 @@
+
+---
+
+# 🧹 **.gitignore (Safe for GitHub, Protects Secrets & Build Files)**
+
+```gitignore
+# Build output
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Secrets (VERY IMPORTANT)
+secrets.json
+appsettings.Development.json
+
+# Database files
+*.mdf
+*.ldf
+*.bak
+*.db
+
+# VSCode
+.vscode/
+
+# Rider / JetBrains
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Publish output
+publish/
